@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Tribute Page</h1>
+        <figure id="img-div">
+          <img
+            id="image"
+            src="https://example.com/image.jpg"
+            alt="describes the picture"
+          />
+          <figcaption id="img-caption">
+            Caption for the pic.
+          </figcaption>
+        </figure>
+      </header>
+      <section>
+        <p id="tribute-info">
+          Information about the person.
+        </p>
+        <p>
+          For more details, visit the 
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/"
+            target="_blank"
+          >
+            Wikipedia page on person
+          </a>.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
