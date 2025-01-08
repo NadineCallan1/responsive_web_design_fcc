@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Nadine's Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us make improvements</p>
+    <div>
+      <form id="survey-form">
+        <fieldset>
+          <label for="name" id="name-label">Name</label>
+<input id="name" type="text" placeholder="Name" required />
+<label for="email" id="email-label">Email</label>
+<input id="email" type="email" placeholder="Email" required />
+<label for="number" id="number-label">Number (optional)</label>
+<input id="number" type="number" min="10" max="20" placeholder="Number" />
+      </fieldset>
+
+      <fieldset>
+        <label>Pick one
+      <select id="dropdown">
+        <option value="1">option 1</option>
+        <option value="2">option 2</option>
+        <option value="3">option 3</option>
+      </select>
+      </label>
+      <legend>Which one (required)</legend>
+      <label for="first-name">
+        <input id="first-name" type="radio" name="name" value="first-name" checked /> First Name</label>
+      <label for="last-name"><input id="last-name" type="radio" name="name" value="last-name" /> Last Name</label>
+      
+      <label for="checkbox1">
+        Pick a few
+        <input id="checkbox1" type="checkbox" name="checkbox1" value="checkbox1"/> checkbox 1
+        </label>
+      <label for="checkbox2">
+        <input id="checkbox2" type="checkbox" name="checkbox2" value="checkbox2" /> checkbox 2
+        </label>
+            <label for="checkbox3">
+        <input id="checkbox3" type="checkbox" name="checkbox3" value="checkbox3" /> checkbox 2
+        </label>
+      <label for="checkbox4">
+        <input id="checkbox4" type="checkbox" name="checkbox4" value="checkbox4" /> checkbox 3
+        </label>
+        </fieldset>
+
+        <fieldset>
+          <label for="additional-comments">Additional Comments</label>
+        <textarea id="additional-comments" placeholder="Additional comments..."></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+      </form>
+      </div>
+    </body>
+  </html>
