@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+header#navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+header#navbar nav a:hover {
+  text-decoration: underline;
+}
+
+#welcome-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+  color: white;
+  text-align: center;
+}
+
+#welcome-section h1 {
+  font-size: 3em;
+}
+
+#projects {
+  padding: 50px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.project-tile {
+  margin: 20px 0;
+}
+
+.project-tile a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: background 0.3s, color 0.3s;
+}
+
+.project-tile a:hover {
+  background: #333;
+  color: #fff;
+}
+
+#contact {
+  padding: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+
+#contact a {
+  color: #4e94fb;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Media Query */
+@media only screen and (max-width: 720px) {
+  header#navbar nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #welcome-section h1 {
+    font-size: 2em;
+  }
+}
