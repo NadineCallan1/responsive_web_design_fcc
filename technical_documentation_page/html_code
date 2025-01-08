@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Technical Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+      <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+      <a class="nav-link" href="#JavaScript_Basics">JavaScript Basics</a>
+      <a class="nav-link" href="#Conclusion">Conclusion</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Welcome to the technical documentation page.</p>
+        <p>Here, you will learn about web development basics.</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <code>&lt;!DOCTYPE html&gt;</code>
+      </section>
+
+      <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML stands for HyperText Markup Language.</p>
+        <p>It is the standard language for creating web pages.</p>
+        <code>&lt;html&gt;</code>
+        <ul>
+          <li>Tags</li>
+          <li>Attributes</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="CSS_Basics">
+        <header>CSS Basics</header>
+        <p>CSS stands for Cascading Style Sheets.</p>
+        <p>It is used to style HTML elements.</p>
+        <code>body { background-color: lightblue; }</code>
+        <ul>
+          <li>Selectors</li>
+          <li>Properties</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="JavaScript_Basics">
+        <header>JavaScript Basics</header>
+        <p>JavaScript is a programming language for the web.</p>
+        <p>It allows you to add interactivity to your site.</p>
+        <code>console.log("Hello, world!");</code>
+        <ul>
+          <li>Variables</li>
+          <li>Functions</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>Web development is an exciting field.</p>
+        <p>Keep practicing to improve your skills!</p>
+        <ul>
+          <li>Learn</li>
+          <li>Build</li>
+          <li>Share</li>
+        </ul>
+        <code>// The end!</code>
+      </section>
+    </main>
+  </body>
+</html>
